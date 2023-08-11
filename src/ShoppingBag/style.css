@@ -1,0 +1,14 @@
+.shopping-bag {
+    border: 1px none;
+    height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+.shopping-bag .vector {
+    height: 19px;
+    left: 4px;
+    position: absolute;
+    top: 2px;
+    width: 15px;
+}

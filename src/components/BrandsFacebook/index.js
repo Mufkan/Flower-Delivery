@@ -1,0 +1,1 @@
+export { BrandsFacebook } from "./BrandsFacebook";

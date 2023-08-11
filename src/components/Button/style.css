@@ -1,0 +1,131 @@
+.button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 16px 24px 14px;
+  position: relative;
+  width: 175px;
+}
+
+.button .div {
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button.state-0-pressed {
+  gap: 8px;
+}
+
+.button.state-0-disabled {
+  gap: 8px;
+}
+
+.button.state-0-default {
+  gap: 8px;
+}
+
+.button.size-7-mobile {
+  height: 48px;
+}
+
+.button.state-0-hover-desktop {
+  gap: 12px;
+}
+
+.button.size-7-desktop-tablet {
+  height: 56px;
+}
+
+
+
+
+.button.state-0-default.primary {
+  background-color: var(--black);
+}
+
+.button.state-0-default.secondary {
+  border: 1px solid;
+ 
+}
+
+.button.tertiary.state-0-disabled {
+  border: 1px solid;
+  
+}
+
+
+
+.button.state-0-default.tertiary {
+  border: 1px solid;
+  border-color: var(--white);
+}
+
+.button.state-0-pressed.secondary {
+  border: 1px solid;
+  
+}
+
+.button.state-0-disabled.primary {
+  background-color: var(--light-gray);
+}
+
+.button.state-0-hover-desktop.primary {
+  background-color: var(--dark-gray);
+}
+
+.button.state-0-disabled.secondary {
+  border: 1px solid;
+  border-color: var(--light-gray);
+}
+
+.button.state-0-disabled .div {
+  color: var(--gray);
+}
+
+.button.size-7-mobile .div {
+  font-family: var(--phone-button-font-family);
+  font-size: var(--phone-button-font-size);
+  font-style: var(--phone-button-font-style);
+  font-weight: var(--phone-button-font-weight);
+  letter-spacing: var(--phone-button-letter-spacing);
+  line-height: var(--phone-button-line-height);
+}
+
+.button.size-7-desktop-tablet .div {
+  font-family: var(--desktop-tablet-button-font-family);
+  font-size: var(--desktop-tablet-button-font-size);
+  font-style: var(--desktop-tablet-button-font-style);
+  font-weight: var(--desktop-tablet-button-font-weight);
+  letter-spacing: var(--desktop-tablet-button-letter-spacing);
+  line-height: var(--desktop-tablet-button-line-height);
+}
+
+.button.state-0-hover-desktop.secondary .div {
+  color: var(--white);
+}
+
+
+
+.button.state-0-default.primary .div {
+  color: var(--white);
+}
+
+
+.button.state-0-hover-desktop.tertiary .div {
+  color: var(--dark-gray);
+}
+
+.button.state-0-pressed.primary .div {
+  color: var(--white);
+}
+
+.button.state-0-default.tertiary .div {
+  color: var(--white);
+}
+
+
+
+.button.state-0-hover-desktop.primary .div {
+  color: var(--white);
+}

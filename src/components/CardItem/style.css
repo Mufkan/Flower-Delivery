@@ -1,0 +1,121 @@
+.card-item {
+  background-position: 50% 50%;
+  background-size: cover;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+ 
+  border-left-style: solid;
+  border-left-width: 1px;
+  position: relative;
+}
+
+.card-item .description {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+}
+
+.card-item .bouquets-fresh {
+  align-self: stretch;
+
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.card-item .price {
+  align-self: stretch;
+
+  position: relative;
+  text-align: center;
+}
+
+.card-item.size-3-desktop {
+  background-image: url(../../../static/img/size-desktop.png);
+  height: 360px;
+  width: 360px;
+}
+
+.card-item.size-3-tablet {
+  background-image: url(../../../static/img/size-tablet.png);
+  height: 384px;
+  width: 384px;
+}
+
+.card-item.size-3-mobile {
+  background-image: url(../../../static/img/size-mobile.png);
+  height: 320px;
+  width: 320px;
+}
+
+.card-item.size-3-desktop .description {
+  left: 24px;
+  top: 296px;
+}
+
+.card-item.size-3-tablet .description {
+  left: 24px;
+  top: 320px;
+}
+
+.card-item.size-3-mobile .description {
+  left: 12px;
+  top: 271px;
+}
+
+.card-item.size-3-desktop .bouquets-fresh {
+  font-family: var(--desktop-tablet-h6-font-family);
+  font-size: var(--desktop-tablet-h6-font-size);
+  font-style: var(--desktop-tablet-h6-font-style);
+  font-weight: var(--desktop-tablet-h6-font-weight);
+  letter-spacing: var(--desktop-tablet-h6-letter-spacing);
+  line-height: var(--desktop-tablet-h6-line-height);
+}
+
+.card-item.size-3-tablet .bouquets-fresh {
+  font-family: var(--desktop-tablet-h6-font-family);
+  font-size: var(--desktop-tablet-h6-font-size);
+  font-style: var(--desktop-tablet-h6-font-style);
+  font-weight: var(--desktop-tablet-h6-font-weight);
+  letter-spacing: var(--desktop-tablet-h6-letter-spacing);
+  line-height: var(--desktop-tablet-h6-line-height);
+}
+
+.card-item.size-3-mobile .bouquets-fresh {
+  font-family: var(--phone-h6-font-family);
+  font-size: var(--phone-h6-font-size);
+  font-style: var(--phone-h6-font-style);
+  font-weight: var(--phone-h6-font-weight);
+  letter-spacing: var(--phone-h6-letter-spacing);
+  line-height: var(--phone-h6-line-height);
+}
+
+.card-item.size-3-desktop .price {
+  font-family: var(--desktop-tablet-caption-bold-font-family);
+  font-size: var(--desktop-tablet-caption-bold-font-size);
+  font-style: var(--desktop-tablet-caption-bold-font-style);
+  font-weight: var(--desktop-tablet-caption-bold-font-weight);
+  letter-spacing: var(--desktop-tablet-caption-bold-letter-spacing);
+  line-height: var(--desktop-tablet-caption-bold-line-height);
+}
+
+.card-item.size-3-tablet .price {
+  font-family: var(--desktop-tablet-caption-bold-font-family);
+  font-size: var(--desktop-tablet-caption-bold-font-size);
+  font-style: var(--desktop-tablet-caption-bold-font-style);
+  font-weight: var(--desktop-tablet-caption-bold-font-weight);
+  letter-spacing: var(--desktop-tablet-caption-bold-letter-spacing);
+  line-height: var(--desktop-tablet-caption-bold-line-height);
+}
+
+.card-item.size-3-mobile .price {
+  font-family: var(--phone-caption-bold-font-family);
+  font-size: var(--phone-caption-bold-font-size);
+  font-style: var(--phone-caption-bold-font-style);
+  font-weight: var(--phone-caption-bold-font-weight);
+  letter-spacing: var(--phone-caption-bold-letter-spacing);
+  line-height: var(--phone-caption-bold-line-height);
+}

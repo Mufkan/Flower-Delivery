@@ -1,0 +1,1 @@
+export { BrandsPinterest } from "./BrandsPinterest";

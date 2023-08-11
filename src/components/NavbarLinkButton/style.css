@@ -1,0 +1,156 @@
+.navbar {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: auto;
+
+}
+
+.navbar .nav-menu-left {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.navbar .menu-wrapper {
+  align-items: center;
+
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.navbar .instance-node {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.navbar .navmenu-right {
+  align-items: flex-start;
+
+  border-left-style: solid;
+  border-left-width: 1px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.navbar .shopping-bag-wrapper {
+  align-items: center;
+
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.navbar.desktop {
+  width: 100%;
+}
+
+.navbar.tablet {
+  width: 768px;
+}
+
+.navbar.mobile {
+  width: 320px;
+}
+
+.navbar.desktop .menu-wrapper {
+  padding: 16px;
+}
+
+.navbar.tablet .menu-wrapper {
+  padding: 16px;
+}
+
+.navbar.mobile .menu-wrapper {
+  padding: 12px;
+}
+
+.navbar.desktop .shopping-bag-wrapper {
+  padding: 16px;
+}
+
+.navbar.tablet .shopping-bag-wrapper {
+  padding: 16px;
+}
+
+.navbar.mobile .shopping-bag-wrapper {
+  padding: 12px;
+}
+
+.navbar-link-button {
+  align-items: center;
+
+  border-right-style: solid;
+  border-right-width: 1px;
+  justify-content: center;
+  position: relative;
+}
+
+.navbar-link-button .link {
+
+  font-family: var(--desktop-tablet-link-font-family);
+  font-size: var(--desktop-tablet-link-font-size);
+  font-style: var(--desktop-tablet-link-font-style);
+  font-weight: var(--desktop-tablet-link-font-weight);
+  letter-spacing: var(--desktop-tablet-link-letter-spacing);
+  line-height: var(--desktop-tablet-link-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.navbar-link-button .menu-instance {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.navbar-link-button.desktop {
+  display: flex;
+  padding: 32px 24px;
+  width: 180px;
+}
+
+.navbar-link-button.tablet {
+  display: inline-flex;
+  padding: 16px;
+}
+
+.navbar-link-button.mobile {
+  display: inline-flex;
+  padding: 12px;
+}
+
+.menu-screen {
+  border: 1px none;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.menu-screen .vector {
+  height: 12px;
+  left: 3px;
+  position: absolute;
+  top: 6px;
+  width: 18px;
+}
+
+.navbar-link-button {
+ background-color: transparent;
+
+}

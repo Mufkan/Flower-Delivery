@@ -1,0 +1,1 @@
+export { BrandsTelegram } from "./BrandsTelegram";

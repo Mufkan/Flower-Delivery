@@ -1,0 +1,58 @@
+.text-icon-button {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+}
+
+.text-icon-button .text-wrapper {
+  font-family: "Gilroy-Semibold", Helvetica;
+  font-weight: 400;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-icon-button .arrow-right-instance {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.text-icon-button.disabled {
+  gap: 4px;
+}
+
+.text-icon-button.hover-desktop {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+
+  gap: 8px;
+}
+
+.text-icon-button.pressed {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+
+  gap: 4px;
+}
+
+.text-icon-button.default {
+  gap: 4px;
+}
+
+
+
+.text-icon-button .size-0-desktop {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 19.2px;
+}
+
+
+
+.text-icon-button .size-0-mobile {
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  line-height: 16.8px;
+}

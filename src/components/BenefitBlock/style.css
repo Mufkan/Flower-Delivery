@@ -1,0 +1,79 @@
+.benefit-block {
+  align-items: flex-start;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+ 
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 720px; 
+}
+
+.benefit-block .stylish-bouquets-by {
+  
+  margin-top: -1px;
+  position: relative;
+}
+
+.benefit-block .the-task-of-the {
+  align-self: stretch;
+ 
+  font-family: var(--desktop-tablet-body-font-family);
+  font-size: var(--desktop-tablet-body-font-size);
+  font-style: var(--desktop-tablet-body-font-style);
+  font-weight: var(--desktop-tablet-body-font-weight);
+  letter-spacing: var(--desktop-tablet-body-letter-spacing);
+  line-height: var(--desktop-tablet-body-line-height);
+  white-space: pre-wrap;
+}
+
+.benefit-block.size-9-desktop-tablet {
+  border-left-style: solid;
+  border-left-width: 1px;
+  display: flex;
+  padding: 80px;
+  width: 720px;
+}
+
+.benefit-block.size-9-mobile {
+  display: inline-flex;
+  padding: 40px 16px;
+}
+
+.benefit-block.size-9-desktop-tablet .stylish-bouquets-by {
+  align-self: stretch;
+  font-family: var(--desktop-tablet-h3-font-family);
+  font-size: var(--desktop-tablet-h3-font-size);
+  font-style: var(--desktop-tablet-h3-font-style);
+  font-weight: var(--desktop-tablet-h3-font-weight);
+  letter-spacing: var(--desktop-tablet-h3-letter-spacing);
+  line-height: var(--desktop-tablet-h3-line-height);
+}
+
+.benefit-block.size-9-mobile .stylish-bouquets-by {
+  font-family: var(--phone-h3-font-family);
+  font-size: var(--phone-h3-font-size);
+  font-style: var(--phone-h3-font-style);
+  font-weight: var(--phone-h3-font-weight);
+  letter-spacing: var(--phone-h3-letter-spacing);
+  line-height: var(--phone-h3-line-height);
+  width: 672px;
+}
+
+.benefit-block.size-9-desktop-tablet .the-task-of-the {
+  font-family: var(--desktop-tablet-body-font-family);
+  font-size: var(--desktop-tablet-body-font-size);
+  font-style: var(--desktop-tablet-body-font-style);
+  font-weight: var(--desktop-tablet-body-font-weight);
+  letter-spacing: var(--desktop-tablet-body-letter-spacing);
+  line-height: var(--desktop-tablet-body-line-height);
+}
+
+.benefit-block.size-9-mobile .the-task-of-the {
+  font-family: var(--phone-body-font-family);
+  font-size: var(--phone-body-font-size);
+  font-style: var(--phone-body-font-style);
+  font-weight: var(--phone-body-font-weight);
+  letter-spacing: var(--phone-body-letter-spacing);
+  line-height: var(--phone-body-line-height);
+}
